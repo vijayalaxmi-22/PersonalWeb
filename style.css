@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: white;
+}
+h1{
+    text-align: center;
+    padding: 25px;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-size: 1.2em;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: pink;
+}
+footer {
+    text-align: center;
+    background-color: grey;
+    color: black;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+}
+.introduction {
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+.resumeinfo{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.39);
+    border-radius: 8px;
+}
+.resumeinfo h2{
+    text-align: center;
+}
+.profile h4{
+    text-decoration: underline;
+}
+.experience h4{
+    text-decoration: underline;
+}
+.education h4{
+    text-decoration: underline;
+}
+.skills h4{
+    text-decoration: underline;
+}
+.resumeinfo h4{
+    margin-top: 20px;
+    color: black;
+}
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.biodatainfo {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.39);
+    border-radius: 8px;
+}
+.biodatainfo h2{
+    text-align: center;
+    margin: 20px;
+}
+.epap{
+    margin: 20px;
+}
+p{
+    margin: 8px;
+}
+p b{
+    text-decoration: underline;
+    padding: 5px;
+}
